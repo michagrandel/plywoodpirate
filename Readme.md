@@ -1,16 +1,18 @@
 # plywoodpirate
 
-[![PyPI - Version](https://img.shields.io/pypi/v/plywoodpirate.svg)](https://pypi.org/project/plywoodpirate)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/plywoodpirate.svg)](https://pypi.org/project/plywoodpirate)
+![](https://img.shields.io/badge/Push%20Requests-welcome-apple)
+![](https://img.shields.io/maintenance/yes/2025)
+![](https://img.shields.io/github/last-commit/michagrandel/lumbermill)
+![](https://img.shields.io/github/actions/workflow/status/michagrandel/lumbermill/main.yaml)
+![](https://img.shields.io/github/license/michagrandel/lumbermill)
 
------
-
-## Table of Contents
-
-- [Installation](#installation)
-- [License](#license)
+plywoodpirate extends the standard library of python with some useful general purpose tools. 
 
 ## Features
+
+### application
+
+* **BasicApplication** — Basic command line application class. Provides logging, configuration and other useful features 
 
 ### aszncio
 
@@ -38,7 +40,7 @@ BidirectionalDict — Dictionary with two-way capabilities.
 * **MultiEntryDict** — Dictionary that can have multiple entries for the same key.
 * **ItemDict** — Dictionary that utilizes Item for key and values. 
 
-All *Dict types above can be combined together (as mixins) to create unique dictionary types.
+All *Dict* types above can be combined together (as mixins) to create unique dictionary types.
 
 ### config
 
@@ -49,7 +51,7 @@ All *Dict types above can be combined together (as mixins) to create unique dict
 
 ### datetime
 
-* convert — Convert time and dates between different formats.
+* **convert** — Convert time and dates between different formats.
 
 ### functools
 
@@ -75,6 +77,10 @@ All *Dict types above can be combined together (as mixins) to create unique dict
 * **supports_color** — Check's if the user's terminal supports color.
 * **strip_ansi** — Removes ANSI codes from string.
 
+### sys
+
+* **platform** — collect system information 
+
 ### textwrap
 
 * **unindent** — Removes indent and white-space from docstrings.
@@ -85,13 +91,15 @@ You can install the tool with pip.
 
 *Install with pip:*
 
-```console
+```bash
+
 pip install plywoodpirate
+
 ```
 
 ## 🔌 How to use
 
-Give some examples on how to use the tool.
+Examples will be added soon. You will find some examples in the source code.
 
 ## 🛠️ How to build from source
 
@@ -121,10 +129,10 @@ Don't forget to read the [Code Of Conduct][Code Of Conduct.md] for more informat
 
 This project uses code from the following projects:
 
-* 
+* [Toolbox](https://github.com/synchronizing/toolbox) (<> by [Felipe Faria](linkedin.com/in/synchronizing))
 
 ## :memo: Miscellaneous
 
-- *License*: [GNU Affero General Public License 2.0](License.md)
+- *License*: [Affero GPL](License.md)
 - *Main contributor*: [Micha Grandel](mailto:michagrandel@proton.me)
 - *Uses*: [Python 3.13+](https://www.python.org/)
