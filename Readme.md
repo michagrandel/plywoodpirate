@@ -14,7 +14,7 @@ plywoodpirate extends the standard library of python with some useful general pu
 
 * **BasicApplication** — Basic command line application class. Provides logging, configuration and other useful features 
 
-### aszncio
+### asyncio
 
 * **future_lru_cache** — lru_cache for async functions.
 * **to_thread** — Run a synchronous function in a separate thread.
